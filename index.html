@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz Game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <footer>
+        <h3 id="score">View High Scores</h3>
+        <h3>Time: <span>0</span></h3>
+    </footer>
     
+
+    <div class="outer-container">
+        <div class="inner-container">
+            
+            <div class="intro">
+                <h1>Coding Quiz Challenge</h1>
+                <h2>Try to answer the following code-related questions wiithin the time limit. Keep in mind that inccorect answers will penalize your score/time by ten seconds! </h2>
+                <button>Start Quiz</button>
+            </div>
+
+            <div class="questions-box">
+                <h1>Commonly used data types Do Not include:</h1>
+                <button>strings</button>
+                <button>booleans</button>
+                <button>alerts</button>
+                <button>numbers</button>
+                <hr>
+            </div>
+
+            <div class="finished">
+                <h1>All done!</h1>
+                <h2>Your final score is <span id="final-score">22</span></h2>
+                <label for="intal">Enter initals: </label>
+                <input type="text" name="intal" id="intal" name>
+                <button>Submit</button>
+                <hr>
+            </div>
+
+            <div class="score-box">
+                <h1>High Score</h1>
+                <div id="score-container">
+                    <h2>AB - 22</21>
+                    <h2>AB - 22</21>
+                </div>
+                <button>Go back</button>
+                <button>Clear high scores</button>
+                <hr>
+            </div>
+
+        </div>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
