@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- footer containing score and time -->
     <footer>
         <h3 id="score">View High Scores</h3>
         <h3>Time: <span id="time">0</span> sec</h3>
     </footer>
     
-
+    <!-- inner and outer divs to center content -->
     <div class="outer-container">
         <div class="inner-container">
 
-            
+            <!-- intro screen div  -->
             <div id="intro" class="intro">
                 <h1>Coding Quiz Challenge</h1>
-                <h2>Try to answer the following code-related questions wiithin the time limit. Keep in mind that inccorect answers will penalize your score/time by ten seconds! </h2>
+                <h2>Try to answer the following code-related questions within the time limit. Keep in mind that incorect answers will penalize your score/time by ten seconds! </h2>
                 <button id="startbut">Start Quiz</button>
             </div>
 
+            <!-- questions div with buttons representing answers -->
             <div id="q-box" class="questions-box">
                 <h1 id="question"">Commonly used data types Do Not include:</h1>
                 <button id="but1">strings</button>
@@ -34,6 +36,7 @@
                 <button id="next">next</button>
             </div>
 
+            <!-- finished div representing the final score and an input to add score to dashboard -->
             <div id="fin" class="finished">
                 <h1>All done!</h1>
                 <h2>Your final score is <span id="final-score">22</span></h2>
@@ -43,6 +46,7 @@
                 <hr>
             </div>
 
+            <!-- dashboard div to show all past scores -->
             <div id="score-co"class="score-box">
                 <h1>High Score</h1>
                 <div id="score-container">
