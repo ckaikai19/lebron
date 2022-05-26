@@ -10,47 +10,49 @@
 <body>
     <footer>
         <h3 id="score">View High Scores</h3>
-        <h3>Time: <span>0</span></h3>
+        <h3>Time: <span id="time">0</span> sec</h3>
     </footer>
     
 
     <div class="outer-container">
         <div class="inner-container">
+
             
-            <div class="intro">
+            <div id="intro" class="intro">
                 <h1>Coding Quiz Challenge</h1>
                 <h2>Try to answer the following code-related questions wiithin the time limit. Keep in mind that inccorect answers will penalize your score/time by ten seconds! </h2>
-                <button>Start Quiz</button>
+                <button id="startbut">Start Quiz</button>
             </div>
 
-            <div class="questions-box">
-                <h1>Commonly used data types Do Not include:</h1>
-                <button>strings</button>
-                <button>booleans</button>
-                <button>alerts</button>
-                <button>numbers</button>
+            <div id="q-box" class="questions-box">
+                <h1 id="question"">Commonly used data types Do Not include:</h1>
+                <button id="but1">strings</button>
+                <button id="but2">booleans</button>
+                <button id="but3">alerts</button>
+                <button id="but4">numbers</button>
                 <hr>
+                <button id="next">next</button>
             </div>
 
-            <div class="finished">
+            <div id="fin" class="finished">
                 <h1>All done!</h1>
                 <h2>Your final score is <span id="final-score">22</span></h2>
                 <label for="intal">Enter initals: </label>
                 <input type="text" name="intal" id="intal" name>
-                <button>Submit</button>
+                <button id="sub">Submit</button>
                 <hr>
             </div>
 
-            <div class="score-box">
+            <div id="score-co"class="score-box">
                 <h1>High Score</h1>
                 <div id="score-container">
-                    <h2>AB - 22</21>
-                    <h2>AB - 22</21>
+                    <h2>AB - 5</21>
                 </div>
-                <button>Go back</button>
-                <button>Clear high scores</button>
+                <button id="play">Play Again</button>
+                <button id="clear">Clear high scores</button>
                 <hr>
             </div>
+
 
         </div>
     </div>
